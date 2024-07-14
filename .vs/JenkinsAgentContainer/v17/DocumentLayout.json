@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|c:\\users\\meijsandbox\\source\\repos\\jenkinsagentcontainer\\agentcontainer\\createcmd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\createcmd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\createcmd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "AgentContainer\\createCmd.vb",
               "ViewState": "AQIAAAsAAAAAAAAAAADwvxgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-14T11:41:31.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T11:41:31.245Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "AgentContainer\\Service1.vb",
               "ToolTip": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\Service1.vb",
               "RelativeToolTip": "AgentContainer\\Service1.vb",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBsAAAAaAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-13T12:39:35.462Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "AgentContainer\\Service1.Designer.vb",
               "ViewState": "AQIAACMAAAAAAAAAAAAAADgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-12T15:25:46.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T15:25:46.749Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "ToolTip": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\Service1.vb [Design]",
               "RelativeToolTip": "AgentContainer\\Service1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-11T15:28:56.579Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-11T15:28:56.579Z"
             }
           ]
         }

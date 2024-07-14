@@ -31,7 +31,7 @@ Public Class Service1
     End Sub
 
     Protected Overrides Sub OnStop()
-        EventLog.WriteEntry("Stopping Jenkins Agent:" & oProcess.Id)
+        EventLog.WriteEntry("Stopping Jenkins Agent with" & oProcess.Id)
         oProcess.Kill()
         'oProcess.StandardOutput.Close()
         'oProcess.Close()

@@ -1,2 +1,2 @@
-AgentContainer/bin/Debug/
-AgentContainer/bin/Release/
+AgentContainer/bin/Debug/*
+AgentContainer/bin/Release/*
