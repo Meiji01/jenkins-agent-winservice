@@ -1,0 +1,11 @@
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\bin\Debug\AgentContainer.exe.config
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\bin\Debug\AgentContainer.exe
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\bin\Debug\AgentContainer.pdb
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\bin\Debug\AgentContainer.xml
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\obj\Debug\AgentContainer.vbproj.AssemblyReference.cache
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\obj\Debug\AgentContainer.Resources.resources
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\obj\Debug\AgentContainer.vbproj.GenerateResource.cache
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\obj\Debug\AgentContainer.vbproj.CoreCompileInputs.cache
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\obj\Debug\AgentContainer.exe
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\obj\Debug\AgentContainer.xml
+C:\Users\MeijSandbox\source\repos\JenkinsAgentContainer\AgentContainer\obj\Debug\AgentContainer.pdb
