@@ -1,0 +1,7 @@
+#Properties
+jenkinsagentpath="C:\Jenkins\agent.jar"
+jenkinsurl=http://192.168.100.33:8080/jenkins/
+jenkinssecret=5c109df679c57e2891f0602d9dd6f51177c81141dbbc06b7c159e19365bdd6ca
+agentname=Win10Virtual
+workDir="C:\Jenkins"
+isWebSocket=No

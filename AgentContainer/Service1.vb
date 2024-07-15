@@ -1,4 +1,6 @@
-﻿Imports System.Threading
+﻿Imports System.Diagnostics.PerformanceData
+Imports System.Runtime.Hosting
+Imports System.Threading
 Imports System.Timers
 
 Public Class Service1
@@ -12,12 +14,13 @@ Public Class Service1
 
         'initialize arguments
         'servicearg = args(1)
+        'EventLog.WriteEntry("Arguments Count:" & args.Length)
         servicearg = "C:\Jenkins\agent.jar -url http://192.168.100.33:8080/jenkins/ -secret 5c109df679c57e2891f0602d9dd6f51177c81141dbbc06b7c159e19365bdd6ca -name Win10Virtual -workDir ""C:\Jenkins"""
 
         'processfactory.createCmdSession()
         ' Add code here to start your service. This method should set things
         ' in motion so your service can do its work.
-        EventLog.WriteEntry("Starting Jenkins Agent at arguments: -jar " & servicearg)
+        EventLog.WriteEntry("Starting Jenkins Agent WinService at arguments: -jar " & servicearg)
         agentconnected = False
 
 
@@ -33,9 +36,10 @@ Public Class Service1
     Protected Overrides Sub OnStop()
         EventLog.WriteEntry("Stopping Jenkins Agent with" & oProcess.Id)
         oProcess.Kill()
+        EventLog.WriteEntry("Jenkins Agent WinService Ended")
         'oProcess.StandardOutput.Close()
         'oProcess.Close()
-        End
+        'End
         'oProcess.StandardInput.WriteLine("exit")
 
         ' Add code here to perform any tear-down necessary to stop your service.
