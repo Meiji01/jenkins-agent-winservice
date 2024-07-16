@@ -3,14 +3,14 @@ An open-source windows service application to contain Jenkins Agent Jar file and
 ## Compiler Prerequisites
 If you want to compile the project, the below minimum prerequisite are required
 - Compiler
-Visual Studio 2022 (Visual Basic)
-Java (Version that runs the agent.jar of Jenkins)
+Visual Studio 2022 (Visual Basic)  
+Java (Version that runs the agent.jar of Jenkins)  
 ## Installation
 If done compiling or you wish to install the official git releases, please follow step by step instructions
 - Prerequisite
 Windows 10/11/Server
-.Net Framework 4.7.2 is installed
-Administrator rights to install the application to windows service
+.Net Framework 4.7.2 is installed  
+Administrator rights to install the application to windows service  
 - Step 1 - Download the official binary releases (use the latest to insure stability and up to date capabilities) in [Section `Releases`](https://github.com/Meiji01/jenkins-agent-winservice/releases) or use your compiled version
 - Step 2 - Extract the binary _(AgentContainer.exe and conf.properties)_ to the desire directory
 - Step 3 - Create and configure an agent in Jenkins (if you still dont have one) 
