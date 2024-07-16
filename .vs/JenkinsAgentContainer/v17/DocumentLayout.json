@@ -6,7 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AgentContainer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|c:\\users\\meijsandbox\\source\\repos\\jenkinsagentcontainer\\agentcontainer\\agentservicemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\agentservicemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\agentservicemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -40,8 +40,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AgentContainer.exe.config",
+              "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
+              "RelativeDocumentMoniker": "AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
+              "ToolTip": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
+              "RelativeToolTip": "AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-15T15:49:29.972Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -68,18 +80,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AgentContainer.exe.config",
-              "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
-              "RelativeDocumentMoniker": "AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
-              "ToolTip": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
-              "RelativeToolTip": "AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-15T15:49:29.972Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "createCmd.vb",
               "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\createCmd.vb",
@@ -100,8 +100,7 @@
               "RelativeToolTip": "AgentContainer\\AgentServiceMain.vb",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-13T12:39:35.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T12:39:35.462Z"
             },
             {
               "$type": "Document",
