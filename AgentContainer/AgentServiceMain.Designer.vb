@@ -2,7 +2,7 @@
 Imports System.Threading
 
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Service1
+Partial Class AgentServiceMain
     Inherits System.ServiceProcess.ServiceBase
 
     'UserService overrides dispose to clean up the component list.
@@ -29,7 +29,7 @@ Partial Class Service1
         '
         '   ServicesToRun = New System.ServiceProcess.ServiceBase () {New Service1, New MySecondUserService}
         '
-        ServicesToRun = New System.ServiceProcess.ServiceBase() {New Service1}
+        ServicesToRun = New System.ServiceProcess.ServiceBase() {New AgentServiceMain}
 
         System.ServiceProcess.ServiceBase.Run(ServicesToRun)
 

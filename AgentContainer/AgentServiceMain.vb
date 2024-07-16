@@ -3,7 +3,7 @@ Imports System.Runtime.Hosting
 Imports System.Threading
 Imports System.Timers
 
-Public Class Service1
+Public Class AgentServiceMain
 
     Dim threadmain As Thread
     Dim oProcess As Process
@@ -17,7 +17,7 @@ Public Class Service1
         'initialize arguments
         'servicearg = args(1)
         'EventLog.WriteEntry("Arguments Count:" & args.Length)
-        'servicearg = "C:\Jenkins\agent.jar -url http://192.168.100.33:8080/jenkins/ -secret 5c109df679c57e2891f0602d9dd6f51177c81141dbbc06b7c159e19365bdd6ca -name Win10Virtual -workDir ""C:\Jenkins"""
+        'servicearg = "C:\Jenkins\agent.jar -url http://192.168.100.33:8080/jenkins/ -secret 454643XXXXX4553 -name Win10Virtual -workDir ""C:\Jenkins"""
 
         'processfactory.createCmdSession()
         ' Add code here to start your service. This method should set things

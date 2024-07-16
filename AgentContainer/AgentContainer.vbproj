@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{259722A3-BF2C-409B-8934-67EC8FA4FB48}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>AgentContainer.Service1</StartupObject>
+    <StartupObject>AgentContainer.AgentServiceMain</StartupObject>
     <RootNamespace>AgentContainer</RootNamespace>
     <AssemblyName>AgentContainer</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -76,11 +76,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Include="Service1.vb">
+    <Compile Include="AgentServiceMain.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Service1.Designer.vb">
-      <DependentUpon>Service1.vb</DependentUpon>
+    <Compile Include="AgentServiceMain.Designer.vb">
+      <DependentUpon>AgentServiceMain.vb</DependentUpon>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
