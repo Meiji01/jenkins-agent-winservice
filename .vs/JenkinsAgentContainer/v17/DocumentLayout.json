@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\service1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\service1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|c:\\users\\meijsandbox\\source\\repos\\jenkinsagentcontainer\\agentcontainer\\properties.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\properties.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -11,24 +23,12 @@
       "RelativeMoniker": "D:0:0:{4EFF672D-A06C-49E2-8080-706200B88F3D}|Solution Items{4EFF672D-A06C-49E2-8080-706200B88F3D}|solutionrelative:propertyfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\createcmd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\createcmd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\bin\\Debug\\AgentContainer.exe.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AgentContainer\\bin\\Debug\\AgentContainer.exe.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|c:\\users\\meijsandbox\\source\\repos\\jenkinsagentcontainer\\agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\service1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\service1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\service1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\agentcontainer\\createcmd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{259722A3-BF2C-409B-8934-67EC8FA4FB48}|AgentContainer\\AgentContainer.vbproj|solutionrelative:agentcontainer\\createcmd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Properties.vb",
               "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\Properties.vb",
               "RelativeDocumentMoniker": "AgentContainer\\Properties.vb",
               "ToolTip": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\Properties.vb",
               "RelativeToolTip": "AgentContainer\\Properties.vb",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwCgAAAASAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwDcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-15T16:52:13.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "propertyfile.txt",
               "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\propertyfile.txt",
               "RelativeDocumentMoniker": "propertyfile.txt",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AgentContainer.exe.config",
               "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
               "RelativeDocumentMoniker": "AgentContainer\\bin\\Debug\\AgentContainer.exe.config",
@@ -81,33 +81,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "createCmd.vb",
               "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\createCmd.vb",
               "RelativeDocumentMoniker": "AgentContainer\\createCmd.vb",
               "ToolTip": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\createCmd.vb",
               "RelativeToolTip": "AgentContainer\\createCmd.vb",
-              "ViewState": "AQIAAAsAAAAAAAAAAADwvxwAAAAxAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwCUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-14T11:41:31.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Service1.vb",
               "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\Service1.vb",
               "RelativeDocumentMoniker": "AgentContainer\\Service1.vb",
               "ToolTip": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\Service1.vb",
               "RelativeToolTip": "AgentContainer\\Service1.vb",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwBAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-13T12:39:35.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Service1.Designer.vb",
               "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\Service1.Designer.vb",
               "RelativeDocumentMoniker": "AgentContainer\\Service1.Designer.vb",
@@ -120,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Service1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\MeijSandbox\\source\\repos\\JenkinsAgentContainer\\AgentContainer\\Service1.vb",
               "RelativeDocumentMoniker": "AgentContainer\\Service1.vb",

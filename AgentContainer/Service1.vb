@@ -10,18 +10,42 @@ Public Class Service1
     Dim agentconnected As Boolean
     Dim servicearg As String
 
+    Dim props As New Dictionary(Of String, String)
+
     Protected Overrides Sub OnStart(ByVal args() As String)
 
         'initialize arguments
         'servicearg = args(1)
         'EventLog.WriteEntry("Arguments Count:" & args.Length)
-        servicearg = "C:\Jenkins\agent.jar -url http://192.168.100.33:8080/jenkins/ -secret 5c109df679c57e2891f0602d9dd6f51177c81141dbbc06b7c159e19365bdd6ca -name Win10Virtual -workDir ""C:\Jenkins"""
+        'servicearg = "C:\Jenkins\agent.jar -url http://192.168.100.33:8080/jenkins/ -secret 5c109df679c57e2891f0602d9dd6f51177c81141dbbc06b7c159e19365bdd6ca -name Win10Virtual -workDir ""C:\Jenkins"""
 
         'processfactory.createCmdSession()
         ' Add code here to start your service. This method should set things
         ' in motion so your service can do its work.
-        EventLog.WriteEntry("Starting Jenkins Agent WinService at arguments: -jar " & servicearg)
-        agentconnected = False
+        EventLog.WriteEntry("Starting Jenkins Agent WinService")
+
+        'initialize properties
+        Dim thispath As String
+        thispath = System.AppDomain.CurrentDomain.BaseDirectory
+        Dim prop As New Properties(thispath & "conf.properties")
+        prop.ReadProperty()
+        Dim agentpath As String = prop.getProperty("jenkinsagentpath")
+        Dim url As String = prop.getProperty("jenkinsurl")
+        Dim secretcode As String = prop.getProperty("jenkinssecret")
+        Dim agentname As String = prop.getProperty("agentname")
+        Dim workdir As String = prop.getProperty("workDir")
+        Dim iswebsocket As String = prop.getProperty("isWebSocket")
+
+
+        servicearg = agentpath & " -url " & url & " -secret " & secretcode & " -name " & agentname & " -workDir " & workdir
+        If iswebsocket = "true" Then
+            servicearg = servicearg + " -webSocket"
+        End If
+
+
+        'EventLog.WriteEntry("Jenkins Agent parameter:" & servicearg)
+
+        'agentconnected = False
 
 
 
@@ -58,16 +82,7 @@ Public Class Service1
         'Dim oProcess As Process
         'oProcess = processfactory.getProcess
         EventLog.WriteEntry("Jenkins Session ID:" & oProcess.Id)
-        'oProcess.StandardInput.WriteLine("C:\Jenkins\runagent.bat")
-        'oProcess.StandardInput.WriteLine("Y")
-        'processfactory.getId = oProcess.SessionId
 
-        'While (oProcess.StandardOutput.EndOfStream = False)
-        'Dim outputstream As String
-        'outputstream = oProcess.StandardOutput.ReadLine
-        'Console.WriteLine(outputstream)
-        'Debug.WriteLine(outputstream)
-        'End While
 
         While (oProcess.StandardError.EndOfStream = False)
             Dim outputerror As String
@@ -77,5 +92,6 @@ Public Class Service1
 
         'oProcess.StandardInput.Close()
     End Sub
+
 
 End Class

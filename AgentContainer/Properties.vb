@@ -4,6 +4,7 @@ Public Class Properties
 
     Dim reader As StreamReader
     Dim filename As String
+    Dim props As New Dictionary(Of String, String)
 
     Sub New(file As String)
         filename = file
@@ -19,6 +20,18 @@ Public Class Properties
     End Sub
 
     Function getProperty(propertyname As String) As String
+
+        For Each prop In props
+            If (prop.Key = propertyname) Then
+                Return prop.Value
+            End If
+        Next
+
+        Return ""
+    End Function
+
+    Sub ReadProperty()
+        openStream()
         While (reader.EndOfStream = False)
             Dim linestr = reader.ReadLine
             If (linestr.Length > 0) Then
@@ -35,14 +48,13 @@ Public Class Properties
                 key = linev(0)
                 value = linev(1)
 
-                If (key = propertyname) Then
-                    Return value
-                End If
+                props.Add(key, value)
+
             End If
 
         End While
-        Return ""
-    End Function
+        closeStream()
+    End Sub
 
     Sub setProperty(key As String, value As String)
 
