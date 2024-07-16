@@ -1,4 +1,5 @@
-﻿Imports System
+﻿Imports System.Resources
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -9,9 +10,9 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("AgentContainer")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("AgentContainer")>
+<Assembly: AssemblyDescription("An open-source windows service application to contain Jenkins Agent Jar file and run as a windows service")>
+<Assembly: AssemblyCompany("MeijSoft")>
+<Assembly: AssemblyProduct("JenkinsAgentContainer")>
 <Assembly: AssemblyCopyright("Copyright ©  2024")>
 <Assembly: AssemblyTrademark("")>
 
@@ -33,3 +34,4 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: NeutralResourcesLanguage("en-PH")>
