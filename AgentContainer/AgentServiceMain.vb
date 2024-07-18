@@ -59,7 +59,10 @@ Public Class AgentServiceMain
 
     Protected Overrides Sub OnStop()
         EventLog.WriteEntry("Stopping Jenkins Agent with" & oProcess.Id)
-        oProcess.Kill()
+
+        If (oProcess.HasExited = False) Then
+            oProcess.Kill()
+        End If
         EventLog.WriteEntry("Jenkins Agent WinService Ended")
         'oProcess.StandardOutput.Close()
         'oProcess.Close()
@@ -89,8 +92,12 @@ Public Class AgentServiceMain
             outputerror = oProcess.StandardError.ReadLine
             Debug.WriteLine(outputerror)
         End While
-
+        'Call OnStop()
         'oProcess.StandardInput.Close()
+        oProcess.WaitForExit()
+        If (oProcess.HasExited) Then
+            End
+        End If
     End Sub
 
 
