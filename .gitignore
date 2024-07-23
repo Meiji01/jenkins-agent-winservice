@@ -1,3 +1,4 @@
 AgentContainer/bin/Debug/*
 AgentContainer/bin/Release/*
 AgentContainer/obj/
+.vs/
