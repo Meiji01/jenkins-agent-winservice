@@ -26,11 +26,14 @@
         oProcessStartInfo.Arguments = args
         oProcessStartInfo.CreateNoWindow = False
         oProcessStartInfo.UseShellExecute = False
-        oProcess.StartInfo = oProcessStartInfo
         oProcessStartInfo.RedirectStandardOutput = True
         oProcessStartInfo.RedirectStandardError = True
+        oProcess.StartInfo = oProcessStartInfo
         oProcess.Start()
         getProcess = oProcess
+        getId = getProcess.Id
+
+
     End Sub
 
 

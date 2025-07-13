@@ -58,18 +58,37 @@ Public Class AgentServiceMain
     End Sub
 
     Protected Overrides Sub OnStop()
-        EventLog.WriteEntry("Stopping Jenkins Agent with" & oProcess.Id)
+        'EventLog.WriteEntry("Stopping Jenkins Agent with" & oProcess.Id)
 
-        If (oProcess.HasExited = False) Then
-            oProcess.Kill()
-        End If
-        EventLog.WriteEntry("Jenkins Agent WinService Ended")
+        'If (oProcess.HasExited = False) Then
+        'oProcess.Kill()
+        'End If
+        ' EventLog.WriteEntry("Jenkins Agent WinService Ended")
         'oProcess.StandardOutput.Close()
         'oProcess.Close()
         'End
         'oProcess.StandardInput.WriteLine("exit")
 
         ' Add code here to perform any tear-down necessary to stop your service.
+
+
+        EventLog.WriteEntry("Stopping Jenkins Agent")
+
+        Try
+            If oProcess IsNot Nothing AndAlso Not oProcess.HasExited Then
+                ' Kill entire process tree (Windows only)
+                Process.Start("cmd.exe", "/C taskkill /T /F /PID " & oProcess.Id)
+                EventLog.WriteEntry("Process tree terminated for PID: " & oProcess.Id)
+            End If
+        Catch ex As Exception
+            EventLog.WriteEntry("Error during termination: " & ex.Message)
+        End Try
+
+        If threadmain IsNot Nothing AndAlso threadmain.IsAlive Then
+            threadmain.Join(5000)
+        End If
+
+        EventLog.WriteEntry("Jenkins Agent WinService Ended")
     End Sub
 
 
